@@ -5,6 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
 }
 
 #card {
@@ -34,6 +36,11 @@ body {
 #card .front {
     background: url(img1.jpg);
     background-size: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 #card .back {
@@ -44,4 +51,9 @@ body {
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
